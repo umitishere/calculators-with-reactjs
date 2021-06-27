@@ -1,6 +1,6 @@
 import KmToMile from "./components/KmToMile";
 
-function App() {
+const App = () => {
     return (
         <KmToMile />
     );
