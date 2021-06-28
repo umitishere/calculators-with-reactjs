@@ -2,7 +2,7 @@ const ToDoList = (props) => {
     const itemArray = props.data;
 
     const listItems = itemArray.map((val, index) => {
-        <li key={index}>{val}</li>
+        return <li key={index}>{val}</li>
     });
 
     return (
