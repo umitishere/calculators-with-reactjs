@@ -1,8 +1,13 @@
 import KmToMile from "./components/KmToMile";
+import SumCalculator from "./components/SumCalculator";
 
 const App = () => {
     return (
-        <KmToMile />
+        <div>
+            <KmToMile />
+            <hr />
+            <SumCalculator />
+        </div>
     );
 }
 
